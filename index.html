@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio.">
+    <title>Zakaria Mennouja - Développeur Web</title>
+    <!-- Bootstrap min css -->
+    <link rel="stylesheet" href="assets/css/vendor/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/vendor/animate.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="d-none d-xl-block header-style-2">
+        <header class="tmp-header-area d-flex align-items-start flex-column header-left-sticky">
+            <div class="inner-wrapper">
+                <div class="logo-area">
+                    <a href="index.html">
+                        <img src="assets/images/logo/banner-user-image-04.jpg"></a>
+                </div>
+                <nav id="sideNavs" class="mainmenu-nav navbar-example2 onepagenav">
+                    <ul class="primary-menu nav nav-pills">
+                        <li class="nav-item current"><a class="nav-link smoth-animation" href="#home"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
+                                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                                </svg> Accueil</a></li>
+                        <li class="nav-item"><a class="nav-link smoth-animation" href="#features"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-briefcase">
+                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                </svg>Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link smoth-animation" href="#resume"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>Curriculum Vitae</a></li>
+                        <li class="nav-item"><a class="nav-link smoth-animation" href="#contacts"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-circle">
+                                    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                                    </path>
+                                </svg>Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="footer">
+                    <div class="social-share-style-1">
+                        <span class="title">Trouvez-moi</span>
+                        <div class="social-link">
+                            <a href="https://www.linkedin.com/in/zakaria-m-95986b263"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://wa.me/33752076141"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+
+
+    <!-- Header Mobile Bar  -->
+    <div class="tmp-responsive-header-style d-block d-xl-none header--sticky">
+        <div class="row align-items-center">
+            <div class="col-6">
+                <div class="logo">
+                    <a href="index.html"></a>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="header-right text-end">
+                    <div class="tmp-side-collups-area d-flex justify-content-end">
+                        <button class="tmp-menu-bars humberger_menu_active"><i class="fa-regular fa-bars-staggered"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header Mobile Bar  -->
+
+
+    <div class="tmp-popup-mobile-menu">
+        <div class="inner">
+            <div class="header-top">
+                <div class="logo">
+                    <a href="index.html" class="logo-area">
+                        <img class="logo-dark" src="assets/images/logo/white-logo-reeni.png" alt="Logo">
+                    </a>
+
+                </div>
+                <div class="close-menu">
+                    <button class="close-button tmp-round-action-btn">
+                        <i class="fa-sharp fa-light fa-xmark"></i>
+                    </button>
+                </div>
+            </div>
+            <ul class="tmp-mainmenu onepagenav-click">
+                <li><a class="smoth-animation" href="#home">Accueil</a></li>
+                <li><a class="smoth-animation" href="#portfolio">Portfolio</a></li>
+                <li><a class="smoth-animation" href="#resume">Curriculum Vitae</a></li>
+                <li><a class="smoth-animation" href="#contacts">Contact</a></li>
+            </ul>
+
+            <div class="social-share-style-1 mt--40">
+                <span class="title">Trouvez-moi</span>
+                <div class="social-link">
+                    <a href="https://www.linkedin.com/in/zakaria-m-95986b263/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://wa.me/33752076141"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="page-with-left-header">
+
+        <!-- tmp banner area start -->
+        <div class="tmp-banner-one-area banner-twelve-area with-bg-image style-3" id="home" data-black-overlay="2">
+            <div class="container">
+                <div class="banner-one-main-wrapper">
+                    <div class="row align-items-center">
+                        <div class="col-lg-12">
+                            <div class="inner text-center">
+                                <h1 class="title tmp-scroll-trigger tmp-fade-in animation-order-2 mb--30">
+                                    Je suis Zakaria <br>
+                                    <span class="header-caption">
+                                        <span class="cd-headline clip is-full-width">
+                                            <span class="cd-words-wrapper">
+                                                <b class="is-visible theme-gradient">Développeur Web</b>
+                                                <b class="is-hidden theme-gradient">Full-Stack</b>
+                                                <b class="is-hidden theme-gradient">Freelance</b>
+                                            </span>
+                                    </span>
+                                    </span>
+                                </h1>
+                                <a href="#contacts" class="tmp-btn btn-primary tmp-scroll-trigger tmp-fade-in animation-order-3">Contacter-moi</a>
+                                <div class="social-share-style-1">
+                                    <div class="social-link">
+                                        <a href="https://www.linkedin.com/in/zakaria-m-95986b263"><i class="fa-brands fa-linkedin-in"></i></a>
+                                        <a href=" https://wa.me/33752076141"><i class="fa-brands fa-whatsapp"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="particles-js"></div>
+        </div>
+        <!-- tmp banner area end -->
+
+        <!-- Tpm Latest Portfolio Area Start -->
+        <div class="latest-portfolio-area custom-column-grid tmp-section-gapTop" id="portfolio">
+            <div class="container">
+                <div class="section-head mb--60">
+                    <div class="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1">
+                        <span class="subtitle">Projets</span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="latest-portfolio-card tmp-hover-link tmp-scroll-trigger tmp-fade-in animation-order-1">
+                            <div class="portfoli-card-img">
+                                <div class="img-box v2">
+                                    <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1" href="projets/booki/index.html" target="_blank" rel="noopener">
+                                        <img class="w-100" src="assets/images/latest-portfolio/portfoli-img-1.jpg" alt="Thumbnail">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-card-content-wrap">
+                                <div class="content-left">
+                                    <h3 class="portfolio-card-title"><a class="link" href="projets/booki/index.html" target="_blank" rel="noopener">Booki</a></h3>
+                                    <p class="portfoli-card-para"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="col-lg-6 col-sm-6"></div>
+                        <div class="latest-portfolio-card tmp-hover-link tmp-scroll-trigger tmp-fade-in animation-order-2">
+                            <div class="portfoli-card-img">
+                                <div class="img-box v2">
+                                    <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1" href="projets/sophie-bluel/home.html" target="_blank" rel="noopener">
+                                        <img class="w-100" src="assets/images/latest-portfolio/portfoli-img-2.jpg" alt="Thumbnail">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-card-content-wrap">
+                                <div class="content-left">
+                                    <h3 class="portfolio-card-title"><a class="link" href="projets/sophie-bluel/home.html" target="_blank" rel="noopener">Sophie Bluel</a></h3>
+                                    <p class="portfoli-card-para"></p>
+                                </div>
+                                <a href="projets/sophie-bluel/home.html" target="_blank" rel="noopener" class="tmp-arrow-icon-btn">
+                                    <div class="btn-inner">
+                                        <i class="tmp-icon fa-solid fa-arrow-up-right"></i>
+                                        <i class="tmp-icon-bottom fa-solid fa-arrow-up-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="latest-portfolio-card tmp-hover-link tmp-scroll-trigger tmp-fade-in animation-order-3">
+                            <div class="portfoli-card-img">
+                                <div class="img-box v2">
+                                    <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1" href="projets/nina-carducci/index.html" target="_blank" rel="noopener">
+                                        <img class="w-100" src="assets/images/latest-portfolio/portfoli-img-3.jpg" alt="Thumbnail">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-card-content-wrap">
+                                <div class="content-left">
+                                    <h3 class="portfolio-card-title"><a class="link" href="projets/nina-carducci/index.html" target="_blank" rel="noopener">Nina Carducci</a></h3>
+                                    <p class="portfoli-card-para"></p>
+                                </div>
+                                <a href="projets/nina-carducci/index.html" target="_blank" rel="noopener" class="tmp-arrow-icon-btn">
+                                    <div class="btn-inner">
+                                        <i class="tmp-icon fa-solid fa-arrow-up-right"></i>
+                                        <i class="tmp-icon-bottom fa-solid fa-arrow-up-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="latest-portfolio-card tmp-hover-link tmp-scroll-trigger tmp-fade-in animation-order-4">
+                            <div class="portfoli-card-img">
+                                <div class="img-box v2">
+                                    <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1" href="projets/kasa/index.html" target="_blank" rel="noopener">
+                                        <img class="w-100" src="assets/images/latest-portfolio/portfoli-img-4.jpg" alt="Thumbnail">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-card-content-wrap">
+                                <div class="content-left">
+                                    <h3 class="portfolio-card-title"><a class="link" href="projets/kasa/index.html" target="_blank" rel="noopener">Kasa</a></h3>
+                                    <p class="portfoli-card-para"></p>
+                                </div>
+                                <a href="projets/kasa/index.html" target="_blank" rel="noopener" class="tmp-arrow-icon-btn">
+                                    <div class="btn-inner">
+                                        <i class="tmp-icon fa-solid fa-arrow-up-right"></i>
+                                        <i class="tmp-icon-bottom fa-solid fa-arrow-up-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="latest-portfolio-card tmp-hover-link tmp-scroll-trigger tmp-fade-in animation-order-4">
+                            <div class="portfoli-card-img">
+                                <div class="img-box v2">
+                                    <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1" href="projets/mon-vieux-grimoire/index.html" target="_blank" rel="noopener">
+                                        <img class="w-100" src="assets/images/latest-portfolio/portfoli-img-5.jpg" alt="Thumbnail">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-card-content-wrap">
+                                <div class="content-left">
+                                    <h3 class="portfolio-card-title"><a class="link" href="projets/mon-vieux-grimoire/index.html" target="_blank" rel="noopener">Mon vieux grimoire</a></h3>
+                                    <p class="portfoli-card-para"></p>
+                                </div>
+                                <a href="projets/mon-vieux-grimoire/index.html" target="_blank" rel="noopener" class="tmp-arrow-icon-btn">
+                                    <div class="btn-inner">
+                                        <i class="tmp-icon fa-solid fa-arrow-up-right"></i>
+                                        <i class="tmp-icon-bottom fa-solid fa-arrow-up-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="latest-portfolio-card tmp-hover-link tmp-scroll-trigger tmp-fade-in animation-order-4">
+                            <div class="portfoli-card-img">
+                                <div class="img-box v2">
+                                    <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1" href="#">
+                                        <img class="w-100" src="assets/images/latest-portfolio/portfoli-img-6.jpg" alt="Thumbnail">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-card-content-wrap">
+                                <div class="content-left">
+                                    <h3 class="portfolio-card-title"><a class="link" href="#">Qwenta</a></h3>
+                                    <p class="portfoli-card-para"></p>
+                                </div>
+                                <a href="#" class="tmp-arrow-icon-btn">
+                                    <div class="btn-inner">
+                                        <i class="tmp-icon fa-solid fa-arrow-up-right"></i>
+                                        <i class="tmp-icon-bottom fa-solid fa-arrow-up-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Tpm Latest Portfolio Area End -->
+
+        <!-- Tpm Education Experience Area Start Marquer tous mes diplômes et ce que j'ai fait-->
+        <section class="education-experience tmp-section-gapTop" id="resume">
+            <div class="container">
+                <div class="section-head mb--50">
+                    <div class="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1">
+                        <span class="subtitle">Études et Expériences</span>
+                    </div>
+                    <h2 class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2"></h2>
+                    <p class="description section-sm tmp-scroll-trigger tmp-fade-in animation-order-3"></p>
+                </div>
+                <h2 class="custom-title mb-32 tmp-scroll-trigger tmp-fade-in animation-order-1">Études <span><img
+                            src="assets/images/custom-line/custom-line.png" alt="custom-line"></span>
+                </h2>
+                <div class="row g-5">
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="education-experience-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1">
+                            <h4 class="edu-sub-title">C.A.P.</h4>
+                            <h2 class="edu-title">2011-2013</h2>
+                            <p class="edu-para">Ouvrages électriques</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="education-experience-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1">
+                            <h4 class="edu-sub-title">Formation EI-Groupe</h4>
+                            <h2 class="edu-title">2013</h2>
+                            <p class="edu-para">CACES 1-3-5 (recyclage CACES 5), Équipier de première intervention, Sauveteur Secouriste du Travail</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="education-experience-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1">
+                            <h4 class="edu-sub-title">BAC Professionnel</h4>
+                            <h2 class="edu-title">2016-2017</h2>
+                            <p class="edu-para">Technicien de maintenance industrielle (TMI)</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="education-experience-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-2">
+                            <h4 class="edu-sub-title">B.T.S.</h4>
+                            <h2 class="edu-title">2017-2018</h2>
+                            <p class="edu-para">Maintenance des systèmes. Option : Production (MSP)</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="education-experience-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-3">
+                            <h4 class="edu-sub-title">B.T.S.</h4>
+                            <h2 class="edu-title">2024-2025</h2>
+                            <p class="edu-para">Développeur, concepteur d'applications web et web mobile (DWWM)</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="education-experience-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-3">
+                            <h4 class="edu-sub-title">Électricité et sécurité</h4>
+                            <h2 class="edu-title">Habilitations</h2>
+                            <p class="edu-para">B1, B2, BR, BC, H0 · ATEX 0 - GIES 1 · Gestionnaire de stocks</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experiences-wrapper">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="experiences-wrap-left-content">
+                                <h2 class="custom-title mb-32 tmp-scroll-trigger tmp-fade-in animation-order-1">Expériences <span><img
+                            src="assets/images/custom-line/custom-line.png" alt="custom-line"></span></h2>
+
+                                <div class="experience-content tmp-scroll-trigger tmp-fade-in animation-order-1">
+                                    <p class="ex-subtitle"></p>
+                                    <h2 class="ex-name">Entrepreneuriat &amp; missions d'intérim (2023-2026)</h2>
+                                    <h3 class="ex-title">Électricien industriel en intérim chez Airbus Helicopters</h3>
+                                    <p class="ex-para">Création et gestion d'activités entrepreneuriales, et missions d'intérim chez Airbus Helicopters en tant qu'électricien industriel. Autonomie, organisation et capacité d'adaptation en milieu exigeant en sécurité.</p>
+                                </div>
+                                <div class="experience-content tmp-scroll-trigger tmp-fade-in animation-order-1">
+                                    <p class="ex-subtitle"></p>
+                                    <h2 class="ex-name">Électricien industriel itinérant (2020-2023)</h2>
+                                    <h3 class="ex-title">Arterris</h3>
+                                    <p class="ex-para">Maintenance et dépannage sur installations de production, suivi technique et priorisation des urgences, respect des consignes QHSE, rédaction de bons de commande et coordination.</p>
+                                </div>
+                                <div class="experience-content tmp-scroll-trigger tmp-fade-in animation-order-1">
+                                    <p class="ex-subtitle"></p>
+                                    <h2 class="ex-name">Électricien polyvalent (2018-2019)</h2>
+                                    <h3 class="ex-title">Fauché</h3>
+                                    <p class="ex-para">Lecture de plans, schémas et cahiers des charges, installation électrique et suivi de chantier. Préparation du matériel, adaptation aux contraintes terrain et communication avec les équipes.</p>
+                                </div>
+                                <div class="experience-content tmp-scroll-trigger tmp-fade-in animation-order-2">
+                                    <p class="ex-subtitle"></p>
+                                    <h2 class="ex-name">Mécanicien d'études industrielles (2016-2018)</h2>
+                                    <h3 class="ex-title">Flowserve</h3>
+                                    <p class="ex-para">Expertise de garnitures mécaniques, confection de plans, croquis et schémas, métrologie avancée.</p>
+                                </div>
+                                <div class="experience-content tmp-scroll-trigger tmp-fade-in animation-order-2">
+                                    <p class="ex-subtitle"></p>
+                                    <h2 class="ex-name">Électrotechnicien industriel (2014-2015)</h2>
+                                    <h3 class="ex-title">Consultant technique en maintenance industrielle</h3>
+                                    <p class="ex-para">Expertise de soupapes et de vannes, suivi de clientèle de la réception à l'expédition, montage et démontage, rodage buse/clapet, suivi administratif pour chaque élément du client.</p>
+                                </div>
+                                <div class="experience-content tmp-scroll-trigger tmp-fade-in animation-order-2">
+                                    <p class="ex-subtitle"></p>
+                                    <h2 class="ex-name">Chef d'équipe (2013-2014)</h2>
+                                    <h3 class="ex-title">NSB Dauphine Isolation</h3>
+                                    <p class="ex-para">Préparation et suivi de chantiers, coordination avec clients, prestataires et intervenants terrain. Organisation du travail, suivi de l'avancement, gestion des aléas et recherche de solutions.</p>
+                                </div>
+                                <div class="experience-content tmp-scroll-trigger tmp-fade-in animation-order-2">
+                                    <p class="ex-subtitle"></p>
+                                    <h2 class="ex-name">Électricien tertiaire (2011-2013)</h2>
+                                    <h3 class="ex-title">Installation et câblage</h3>
+                                    <p class="ex-para">Installation de pieuvres et de tableaux électriques, branchements de prises, câblage aéronautique.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="experiences-wrap-right-content">
+                                <img class="tmp-scroll-trigger tmp-zoom-in animation-order-1" src="assets/images/experiences/expert-img.jpg" alt="expert-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="custom-title mb-32 tmp-scroll-trigger tmp-fade-in animation-order-1" style="margin-top:80px">Compétences <span><img
+                            src="assets/images/custom-line/custom-line.png" alt="custom-line"></span></h2>
+                <div class="row g-5">
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="education-experience-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1">
+                            <h4 class="edu-sub-title">Métier</h4>
+                            <h2 class="edu-title">Compétences clés</h2>
+                            <p class="edu-para">Électricité générale BT, maintenance et diagnostic, lecture de plans et schémas, suivi d'interventions, coordination de prestataires, relation client, prospection terrain, sécurité</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="education-experience-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1">
+                            <h4 class="edu-sub-title">Logiciels</h4>
+                            <h2 class="edu-title">Outils</h2>
+                            <p class="edu-para">Word, Excel, PowerPoint, GMAO, notions d'AutoCAD, environnement web</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="education-experience-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-2">
+                            <h4 class="edu-sub-title">Communication</h4>
+                            <h2 class="edu-title">Langues</h2>
+                            <p class="edu-para">Français : natif · Anglais : A2 · Espagnol : A1</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="education-experience-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-2">
+                            <h4 class="edu-sub-title">Savoir-être</h4>
+                            <h2 class="edu-title">Atouts</h2>
+                            <p class="edu-para">Autonomie et sens du terrain, rigueur, méthode et sécurité, aisance relationnelle, esprit entrepreneurial, capacité d'apprentissage rapide</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Tpm Education Experience Area End -->
+
+        <!-- Tpm Get In touch start -->
+        <section class="get-in-touch-area tmp-section-gapTop" id="contacts">
+            <div class="container">
+                <div class="contact-get-in-touch-wrap">
+                    <div class="get-in-touch-wrapper tmponhover">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-lg-5">
+                                <div class="section-head text-align-left">
+                                    <div class="section-sub-title tmp-scroll-trigger tmp-fade-in animation-order-1">
+                                        <span class="subtitle">ENTRER EN CONTACT</span>
+                                    </div>
+                                    <h2 class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">Élevez votre marque avec moi</h2>
+                                    <p class="description tmp-scroll-trigger tmp-fade-in animation-order-3"></p>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="contact-inner">
+                                    <div class="contact-form">
+                                        <div id="form-messages" class="error"></div>
+                                        <form class="tmp-dynamic-form" id="contact-form" method="POST" action="mailer.php">
+                                            <div class="contact-form-wrapper row">
+                                                <div class="col-lg-6">
+                                                    <div class="form-group">
+                                                        <input class="input-field" name="name" id="contact-name" placeholder="Prénom" type="text" required>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-6">
+                                                    <div class="form-group">
+                                                        <input class="input-field" id="contact-name" placeholder="Nom" type="text" required>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-6">
+                                                    <div class="form-group">
+                                                        <input class="input-field" id="contact-phone" name="Téléphone" placeholder="Téléphone" type="numbertext" required>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-6">
+                                                    <div class="form-group">
+                                                        <input class="input-field" type="contact-email" id="contact-email" name="email" placeholder="Email">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <textarea class="input-field" placeholder="Votre message" name="message" id="contact-message" required></textarea>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-12">
+                                                    <div class="tmp-button-here">
+                                                        <button class="tmp-btn hover-icon-reverse radius-round w-100" name="submit" type="submit" id="submit">
+                                                            <span class="icon-reverse-wrapper">
+                                                            <span class="btn-text">Rendez-vous maintenant</span>
+                                                            <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                            <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                            </span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Tpm Get In touch End -->
+
+        <!-- Start Footer Area  -->
+        <div class="tmp-footer-area footer-style-4 tmp-section-gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer-area text-center">
+                            <div class="logo">
+                                <a href="index.html"></a>
+                            </div>
+                            <p class="description mt--30">©
+                                <script>
+                                    document.write(new Date().getFullYear())
+                                </script>
+                                . Tous droits réservés par <a target="_blank" href="#">Zakaria Ayyoub MENNOUJA</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Area  -->
+    </div>
+
+    <script src="assets/js/vendor/jquery.js"></script>
+    <script src="assets/js/vendor/jquery-ui.min.js"></script>
+    <script src="assets/js/vendor/waypoints.min.js"></script>
+
+    <script src="assets/js/plugins/odometer.js"></script>
+    <script src="assets/js/vendor/appear.js"></script>
+
+
+    <script src="assets/js/vendor/jquery-one-page-nav.js"></script>
+    <script src="assets/js/plugins/swiper.js"></script>
+
+    <script src="assets/js/plugins/gsap.js"></script>
+    <script src="assets/js/plugins/splittext.js"></script>
+    <script src="assets/js/plugins/scrolltigger.js"></script>
+    <script src="assets/js/plugins/scrolltoplugins.js"></script>
+    <script src="assets/js/plugins/smoothscroll.js"></script>
+    <!-- bootstrap Js-->
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/waw.js"></script>
+    <script src="assets/js/plugins/isotop.js"></script>
+    <script src="assets/js/plugins/animation.js"></script>
+    <script src="assets/js/plugins/contact.form.js"></script>
+    <script src="assets/js/vendor/backtop.js"></script>
+    <script src="assets/js/vendor/particle.js"></script>
+    <script src="assets/js/plugins/text-type.js"></script>
+    <!-- custom Js -->
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        particlesJS('particles-js',
+
+            {
+                "particles": {
+                    "number": {
+                        "value": 7,
+                        "density": {
+                            "enable": true,
+                            "value_area": 1200
+                        }
+                    },
+                    "color": {
+                        "value": ["#ffffff", ]
+                    },
+                    "shape": {
+                        "type": "star",
+                        "stroke": {
+                            "width": 0,
+                            "color": "#000000"
+                        },
+                        "polygon": {
+                            "nb_sides": 5
+                        },
+                        "image": {
+                            "src": "img/github.svg",
+                            "width": 100,
+                            "height": 100
+                        }
+                    },
+                    "opacity": {
+                        "value": 0.8,
+                        "random": true,
+                        "anim": {
+                            "enable": false,
+                            "speed": 1,
+                            "opacity_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "size": {
+                        "value": 4,
+                        "random": true,
+                        "anim": {
+                            "enable": false,
+                            "speed": 40,
+                            "size_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "line_linked": {
+                        "enable": false,
+                        "distance": 150,
+                        "color": "#ffffff",
+                        "opacity": 0.4,
+                        "width": 1
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 6,
+                        "direction": "none",
+                        "random": false,
+                        "straight": false,
+                        "out_mode": "out",
+                        "attract": {
+                            "enable": false,
+                            "rotateX": 600,
+                            "rotateY": 1200
+                        }
+                    }
+                },
+                "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                        "onhover": {
+                            "enable": true,
+                            "mode": "repulse"
+                        },
+                        "onclick": {
+                            "enable": true,
+                            "mode": "push"
+                        },
+                        "resize": true
+                    },
+                    "modes": {
+                        "grab": {
+                            "distance": 400,
+                            "line_linked": {
+                                "opacity": 1
+                            }
+                        },
+                        "bubble": {
+                            "distance": 800,
+                            "size": 40,
+                            "duration": 2,
+                            "opacity": 8,
+                            "speed": 3
+                        },
+                        "repulse": {
+                            "distance": 200
+                        },
+                        "push": {
+                            "particles_nb": 4
+                        },
+                        "remove": {
+                            "particles_nb": 2
+                        }
+                    }
+                },
+                "retina_detect": true,
+                "config_demo": {
+                    "hide_card": false,
+                    "background_color": "#b61924",
+                    "background_image": "",
+                    "background_position": "50% 50%",
+                    "background_repeat": "no-repeat",
+                    "background_size": "cover"
+                }
+            }
+        );
+    </script>
+</body>
+
+</html>
