@@ -1,0 +1,38 @@
+[
+ {
+  "id": 86,
+  "title": "Buffet 1",
+  "imageUrl": "./assets/demo/work-86.png",
+  "categoryId": 2
+ },
+ {
+  "id": 87,
+  "title": "Salon 2",
+  "imageUrl": "./assets/demo/work-87.png",
+  "categoryId": 2
+ },
+ {
+  "id": 88,
+  "title": "Bar 1",
+  "imageUrl": "./assets/demo/work-88.png",
+  "categoryId": 3
+ },
+ {
+  "id": 90,
+  "title": "Salon 2",
+  "imageUrl": "./assets/demo/work-90.png",
+  "categoryId": 2
+ },
+ {
+  "id": 92,
+  "title": "Resto 1",
+  "imageUrl": "./assets/demo/work-92.png",
+  "categoryId": 3
+ },
+ {
+  "id": 97,
+  "title": "canapé",
+  "imageUrl": "./assets/demo/work-97.png",
+  "categoryId": 2
+ }
+]

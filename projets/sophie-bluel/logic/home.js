@@ -4,12 +4,13 @@ const token = localStorage.getItem("token");
 const getApi = async () => {
   try {
     const response = await fetch("http://localhost:5678/api/works");
-    console.log(response.json)
     const data = await response.json();
 
     return data;
   } catch (error) {
-    console.log(error);
+    // API indisponible (version portfolio) : on affiche les données de démonstration
+    const response = await fetch("./assets/demo/works.json");
+    return response.json();
   }
 };
 
@@ -22,7 +23,8 @@ const getCategoriesApi = async () => {
 
     return data;
   } catch (error) {
-    console.log("error");
+    const response = await fetch("./assets/demo/categories.json");
+    return response.json();
   }
 };
 
